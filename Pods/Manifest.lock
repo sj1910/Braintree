@@ -1,0 +1,52 @@
+PODS:
+  - AFNetworking (3.1.0):
+    - AFNetworking/NSURLSession (= 3.1.0)
+    - AFNetworking/Reachability (= 3.1.0)
+    - AFNetworking/Security (= 3.1.0)
+    - AFNetworking/Serialization (= 3.1.0)
+    - AFNetworking/UIKit (= 3.1.0)
+  - AFNetworking/NSURLSession (3.1.0):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.1.0)
+  - AFNetworking/Security (3.1.0)
+  - AFNetworking/Serialization (3.1.0)
+  - AFNetworking/UIKit (3.1.0):
+    - AFNetworking/NSURLSession
+  - Braintree (4.7.2):
+    - Braintree/Card (= 4.7.2)
+    - Braintree/Core (= 4.7.2)
+    - Braintree/PayPal (= 4.7.2)
+    - Braintree/UI (= 4.7.2)
+  - Braintree/Card (4.7.2):
+    - Braintree/Core
+  - Braintree/Core (4.7.2)
+  - Braintree/PayPal (4.7.2):
+    - Braintree/Core
+    - Braintree/PayPalOneTouch
+  - Braintree/PayPalDataCollector (4.7.2):
+    - Braintree/Core
+    - Braintree/PayPalUtils
+  - Braintree/PayPalOneTouch (4.7.2):
+    - Braintree/Core
+    - Braintree/PayPalDataCollector
+    - Braintree/PayPalUtils
+  - Braintree/PayPalUtils (4.7.2)
+  - Braintree/UI (4.7.2):
+    - Braintree/Card
+    - Braintree/Core
+
+DEPENDENCIES:
+  - AFNetworking (~> 3.1.0)
+  - Braintree
+  - Braintree/Card
+  - Braintree/PayPal
+
+SPEC CHECKSUMS:
+  AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
+  Braintree: 2de65628b1cb31df053ac808f2acd7a485569ecd
+
+PODFILE CHECKSUM: 85f03873772d4f0d0fd7c6a66034c075fb222a91
+
+COCOAPODS: 1.1.1
